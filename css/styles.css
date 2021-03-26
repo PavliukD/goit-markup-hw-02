@@ -1,0 +1,63 @@
+:root{
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --action-color: #2196F3;
+    --hero-background-color: #2F303A;
+    --section-main-background-color: #E5E5E5;
+    --section-secondary-background-color: #F5F4FA;
+    --header-backgrond-color: #FFFFFF;
+}
+
+li{
+    list-style: none;
+}
+
+/* Header */
+
+.header{
+    background-color: var(--header-backgrond-color);
+}
+.header .logo-main{
+    color: var(--secondary-text-color);
+}
+
+.header .logo-secondary{
+    color: var(--action-color);
+}
+
+.nav .link{
+    color: var(--secondary-text-color);
+}
+
+.nav .link:hover{
+    color: var(--action-color);
+}
+
+.header .contact{
+    color: var(--primary-text-color);
+}
+
+.header .contact:hover{
+    color: var(--action-color);
+}
+
+main{
+    background-color: var(--section-main-background-color);
+}
+
+/* Hero */
+
+.hero{
+    background-color: var(--hero-background-color);
+    color: var(--header-backgrond-color);
+}
+
+.hero .button{
+    color: var(--header-backgrond-color);
+}
+
+/* Features */
+
+.features {
+
+}
