@@ -5,17 +5,26 @@
     --hero-background-color: #2F303A;
     --section-main-background-color: #E5E5E5;
     --section-secondary-background-color: #F5F4FA;
-    --header-backgrond-color: #FFFFFF;
+    --main-body-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto';
+    background-color: var(--main-body-color);
 }
 
 li{
     list-style: none;
 }
 
+.link{
+    text-decoration: none;
+}
+
 /* Header */
 
 .header{
-    background-color: var(--header-backgrond-color);
+   
 }
 .header .logo-main{
     color: var(--secondary-text-color);
@@ -42,7 +51,7 @@ li{
 }
 
 main{
-    background-color: var(--section-main-background-color);
+  
 }
 
 /* Hero */
