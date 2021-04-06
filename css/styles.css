@@ -57,6 +57,10 @@ a {
   color: var(--action-color);
 }
 
+.nav-link-action {
+  color: var(--action-color);
+}
+
 .header-contacts {
   color: var(--primary-text-color);
 }
@@ -76,9 +80,11 @@ a {
   font-size: 44px;
   text-align: center;
   line-height: 1.36;
+  font-weight: 900;
 }
 
 .hero-button {
+  font-family: inherit;
   font-size: 14px;
   color: var(--main-body-color);
   font-weight: bold;
@@ -92,7 +98,7 @@ a {
 
 /*features*/
 
-.hiden {
+.hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -137,7 +143,7 @@ a {
 
 .profession {
   font-size: 16px;
-  line-height: 1, 2;
+  line-height: 1.2;
 }
 
 /*footer*/
@@ -147,30 +153,28 @@ a {
 }
 
 .footer-logo {
-  color: #ffffff;
+  color: var(--main-body-color);
 }
 
 .address {
   font-size: 14px;
   line-height: 1.7;
-  color: #ffffff;
+  color: var(--main-body-color);
   font-style: normal;
 }
 
 .address-link {
-  font-style: inherit;
-  line-height: inherit;
-  font-size: inherit;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover {
+  color: var(--action-color);
 }
 
 /*portfolio*/
 
-.portfolio-action {
-  color: var(--action-color);
-}
-
 .filter-button {
+  font-family: inherit;
   font-size: 16px;
   color: var(--secondary-text-color);
   font-weight: 500;
